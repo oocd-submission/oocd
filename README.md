@@ -10,7 +10,7 @@ For reproducibility, the codes and toy datasets are publicly available during th
 - python
 - torch (GPU version only)
 
-First, download the pretrained word vectors from [this link](https://www.dropbox.com/s/vvv8p4wzgelf5fo/pretrained_wiki_w_emb.zip?dl=0).
+First, download the pretrained word vectors from [this link](https://www.dropbox.com/s/o8e93wuw9u09tw9/pretrained_wiki_w_emb.zip?dl=0).
 The pretrained embedding weights are obtained by using a large-scale wiki text.
 Then, place the .zip file in the `./ouput` directory and unzip it as follows.
 ```
