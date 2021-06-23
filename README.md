@@ -10,14 +10,16 @@ For reproducibility, the codes and toy datasets are publicly available during th
 - python
 - torch (GPU version only)
 
-First, you need to unzip the pretrained word vectors, obtained by using a large-scale wiki corpus.
+First, download the pretrained word vectors from [this link](https://www.dropbox.com/s/vvv8p4wzgelf5fo/pretrained_wiki_w_emb.zip?dl=0).
+The pretrained embedding weights are obtained by using a large-scale wiki text.
+Then, place the .zip file in the `./ouput` directory and unzip it as follows.
 ```
 cd ./output
 unzip pretrained_wiki_w_emb.zip
 cd ../
 ```
 
-Then, you can simply run the code with the default setting by the following command:
+You can simply run the code with the default setting by the following command:
 ```
 python main.py
 ```
